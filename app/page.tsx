@@ -89,7 +89,7 @@ export default function HomePage() {
           <div className="grid gap-12 md:grid-cols-[1.2fr_1fr]">
             <div className="space-y-6">
               <p className="text-xs uppercase tracking-[0.3em] text-steel">{about.title}</p>
-              <h2 className="text-3xl font-semibold text-ink md:text-4xl">HR-партнер для роста бизнеса</h2>
+              <h2 className="text-3xl font-semibold text-ink md:text-4xl">Карьерный консультант для роста</h2>
               <p className="text-lg text-steel">{about.text}</p>
             </div>
             <div className="space-y-4 rounded-3xl border border-black/10 bg-white p-8 shadow-soft">
@@ -108,7 +108,7 @@ export default function HomePage() {
             <div className="flex flex-wrap items-end justify-between gap-6">
               <div>
                 <p className="text-xs uppercase tracking-[0.3em] text-steel">{services.title}</p>
-                <h2 className="mt-4 text-3xl font-semibold text-ink md:text-4xl">Тарифы под размер команды</h2>
+              <h2 className="mt-4 text-3xl font-semibold text-ink md:text-4xl">Тарифы для карьерного роста</h2>
               </div>
               <p className="max-w-sm text-sm text-steel">{services.note}</p>
             </div>
@@ -152,7 +152,7 @@ export default function HomePage() {
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-steel">{testimonials.title}</p>
-              <h2 className="mt-4 text-3xl font-semibold text-ink md:text-4xl">Результаты, о которых говорят</h2>
+              <h2 className="mt-4 text-3xl font-semibold text-ink md:text-4xl">Результаты клиентов</h2>
             </div>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-3">
@@ -172,7 +172,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-6xl px-6 py-20">
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-steel">{process.title}</p>
-              <h2 className="mt-4 text-3xl font-semibold text-ink md:text-4xl">Системный подход без перегруза</h2>
+              <h2 className="mt-4 text-3xl font-semibold text-ink md:text-4xl">Пошаговый путь к офферу</h2>
             </div>
             <div className="mt-12 grid gap-6 md:grid-cols-3">
               {process.steps.map((step, index) => (
@@ -212,7 +212,7 @@ export default function HomePage() {
           <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 md:grid-cols-[1.2fr_1fr]">
             <div className="space-y-6">
               <p className="text-xs uppercase tracking-[0.3em] text-white/60">{contacts.title}</p>
-              <h2 className="text-3xl font-semibold md:text-4xl">Готовы обсудить HR-стратегию?</h2>
+              <h2 className="text-3xl font-semibold md:text-4xl">Готовы обсудить карьерный рост?</h2>
               <p className="text-base text-white/70">
                 Напишите в любой удобный канал. Отвечаю в течение 24 часов.
               </p>
