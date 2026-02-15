@@ -1,0 +1,11 @@
+{
+  "title": "Контакты",
+  "subtitle": "Расскажите о задаче — я предложу решение в течение 1 дня.",
+  "email": "hello@hr-on.ru",
+  "phone": "+7 (999) 123-45-67",
+  "address": "Москва, работаем онлайн по всей России",
+  "socials": [
+    {"label": "Telegram", "href": "https://t.me/hron"},
+    {"label": "WhatsApp", "href": "https://wa.me/79991234567"}
+  ]
+}
